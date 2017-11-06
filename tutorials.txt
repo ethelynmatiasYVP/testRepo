@@ -38,8 +38,7 @@ To delete the staging branch run: git branch -D branch_name
 Step 6: add file: git add file_name
 Step 7:  push run: git push origin branch_name
 
-Merging
+- Merging
 Step 1: checkout the main branch run: git checkout master
-
-
-
+Step 2: git merge branch_name
+Step 3: then run : git push origin master
