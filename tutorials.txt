@@ -35,5 +35,11 @@ TO GO BACK TO MASTER FILE : run: git checkout master
 
 Step 5: Merge the changes from staging to the master branch run: git merge branch_name
 To delete the staging branch run: git branch -D branch_name
-Step 6: 
+Step 6: add file: git add file_name
+Step 7:  push run: git push origin branch_name
+
+Merging
+Step 1: checkout the main branch run: git checkout master
+
+
 
