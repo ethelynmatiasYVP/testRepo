@@ -1,0 +1,39 @@
+- Creating and Cloning
+Step 1: Copy Http
+Step 2: Command line Git Bash
+Step 3: Add path were you want to save the file example : cd Desktop
+Step 4: Clone git repo run: git clone repository_link
+Step 5: 
+
+- Uploading
+Step 1: Go to repository path example: cd desktop and cd testRepo
+Step 2: Paste all the files on the repository
+Step 3: Track uncommited files run: git status
+Step 4: after that run: (git add .)
+Step 5: Commit the file run : git commit -m "commit description"
+Step 4: Commit to master git run: git push origin master
+
+Error fix: rm -f ./.git/index.lock
+
+- When updating files:
+Step 1: git add file_name
+Step 2: commit : git commit -m "description or message"
+Step 3: commit : git push origin master
+
+- Updating local repository
+Step 1: run : git pull origin master
+
+- Discard changes
+Step 1: run : git checkout  file_name
+
+- Create new branch
+Step 1: run: git branch branch_name
+Step 2: run : git checkout staging
+Step 3: after the changes run: git add -- all
+Step 4: git commit to staging: git commit -m "commit to staging"
+TO GO BACK TO MASTER FILE : run: git checkout master
+
+Step 5: Merge the changes from staging to the master branch run: git merge branch_name
+To delete the staging branch run: git branch -D branch_name
+Step 6: 
+
